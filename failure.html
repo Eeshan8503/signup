@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+     <meta charset="utf-8">
+      <title></title>
+      <style>
+        .abcd{
+          margin-top:5px;
+           margin-bottom:5px;
+            background-color: black;
+            color:white;
+        }
+        .abcd:hover{
+          transition-duration: 1s;
+          background-color: white;
+          color:black;
+        }
+      </style>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     </head>
+      <body style="background-color:black; overflow-y:hidden">
+        <div class="jumbotron jumbotron-fluid" style="background-color:rgb(16, 50, 105);">
+        <div class="container" style="background-color:#2E66AB">
+        <h1 class="display-4">OOPS!</h1>
+        <p class="lead"><strong>There seems to be a problem...</strong></p>
+        <p class="lead"><strong>Please Try Again</strong></p>
+        <form class="" action="/fail" method="post">
+        <button type="submit"class="btn btn-lg abcd" name="button">Try Again</button>
+        </form>
+      </div>
+    </div>
+    <div class="">
+     <img src="logo-blue.png" alt="" width="100%" height="400px">
+    </div>
+     </body>
+ </html>

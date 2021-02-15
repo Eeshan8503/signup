@@ -5,3 +5,17 @@ The voice while typing can be annoying to a few users, a toggle button can be ma
 
 Here is the link to only the static landing page 
 https://eeshan8503.github.io/signup/
+
+#################
+
+To run the complete website on your local host
+
+git clone https://github.com/Eeshan8503/signup.git
+
+cd signup
+
+npm i express
+
+npm i body-parser
+
+node server.js
